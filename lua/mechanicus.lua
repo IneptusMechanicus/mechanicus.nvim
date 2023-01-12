@@ -3,7 +3,7 @@ local M = {}
 
 M.palette = {
 	name = 'mechanicus',
-	base0 = '#262622',
+	base0 = '#1a1a17',
 	base1 = '#302F27',
 	base2 = '#21201a',
 	base3 = '#3C3A2E',
