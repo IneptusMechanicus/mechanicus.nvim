@@ -14,7 +14,7 @@ Installation is pretty standard for the popular package managers.
 | Plugin Manager | Code |
 | ----------- | ----------- |
 | [Packer](https://github.com/wbthomason/packer.nvim) | `use {'IneptusMechanicus/mechanicus.nvim'}` |
-| [Plug](https://github.com/junegunn/vim-plug) | `Plug 'tanvirtin/monokai.nvim'` |
+| [Plug](https://github.com/junegunn/vim-plug) | `Plug 'IneptusMechanicus/mechanicus.nvim'` |
 
 Once it's installed either invoke it inside nvim using `:colorscheme mechanicus` or using `vim.cmd()` in your Lua config
 
