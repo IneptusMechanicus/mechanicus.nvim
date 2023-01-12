@@ -129,6 +129,7 @@ M.highlight_group = function(palette)
 
 		-- WhichKey
 		WhichKey = {fg = palette.green, style = 'bold'},
+		WhichKeyFloat = {fg = palette.white, bg = palette.base2},
 		WhichKeyGroup = {fg = palette.orange, style = 'italic'},
 		WhichKeySeparator = {fg = palette.yellow, style = 'bold'},
 		WhichKeyDesc = {fg = palette.aqua, style = 'italic'},
