@@ -12,7 +12,7 @@ M.palette = {
   base6 = "#9ca0a4",
   base7 = "#b1b1b1",
   base8 = "#e3e3e1",
-  border = "#a1b5b:1",
+  border = "#a1b5b1",
   brown = "#88481c",
   white = "#e6c68a",
   grey = "#8F908A",
@@ -172,7 +172,7 @@ M.highlight_group = function(palette)
     ["@keyword.operator"] = { fg = palette.yellow, style = "bold" },
     --
     ["@include"] = { fg = palette.aqua, style = "italic" },
-    ["@namespace"] = { fg = palette.aqua, style = "italic" },
+    ["@namespace"] = { fg = palette.base8, style = "italic" },
     ["@exception"] = { fg = palette.aqua, style = "italic" },
     ["@storageclass"] = { fg = palette.yellow, style = "italic" },
     --
