@@ -37,7 +37,6 @@ M.highlight_group = function(palette)
     -- Base --
     Normal = { fg = palette.white, bg = palette.base2 },
     NormalFloat = { bg = palette.base1 },
-    Cursor = { style = "reverse" },
     NonText = { fg = palette.base5 },
     Visual = { bg = palette.base4 },
     VisualNOS = { bg = palette.base3 },
@@ -50,8 +49,9 @@ M.highlight_group = function(palette)
     ErrorMsg = { fg = palette.red, style = "bold" },
     WarningMsg = { fg = palette.yellow, style = "bold" },
     VertSplit = { fg = palette.brown },
-    CursorLineNr = { fg = palette.base7, bg = palette.base1 },
     LineNr = { fg = palette.base5, bg = palette.base0 },
+    Cursor = { style = "reverse" },
+    CursorLineNr = { fg = palette.base7, bg = palette.base1 },
     SignColumn = { fg = palette.yellow, bg = palette.base2 },
     SpellBad = { fg = palette.red, style = "undercurl" },
     SpellCap = { fg = palette.purple, style = "undercurl" },
