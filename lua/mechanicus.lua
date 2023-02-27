@@ -51,6 +51,7 @@ M.highlight_group = function(palette)
     VertSplit = { fg = palette.brown },
     LineNr = { fg = palette.base5, bg = palette.base0 },
     Cursor = { style = "reverse" },
+    CursorLine = { fg = palette.white, bg = palette.base2 },
     CursorLineNr = { fg = palette.base7, bg = palette.base1 },
     SignColumn = { fg = palette.yellow, bg = palette.base2 },
     SpellBad = { fg = palette.red, style = "undercurl" },
