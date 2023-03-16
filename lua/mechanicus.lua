@@ -17,7 +17,7 @@ M.palette = {
   white = "#e6c68a",
   grey = "#8F908A",
   black = "#000000",
-  pink = "#f94662",
+  pink = "#fa4672",
   green = "#88c288",
   darkGreen = "#529d51",
   aqua = "#7abcf5",
@@ -25,6 +25,7 @@ M.palette = {
   orange = "#d57635",
   purple = "#a870b1",
   red = "#fb6767",
+  cyan = "#30d4d4",
   diff_add = "#77a66c",
   diff_remove = "#fb6767",
   diff_change = "#27406b",
@@ -153,7 +154,7 @@ M.highlight_group = function(palette)
 
     -- Treesitter --
     ["@variable"] = { fg = palette.orange },
-    ["@variable.builtin"] = { fg = palette.orange },
+    ["@variable.builtin"] = { fg = palette.cyan },
     ["@boolean"] = { fg = palette.purple, style = "bold" },
     ["@string"] = { fg = palette.darkGreen, style = "italic" },
     ["@string.escape"] = { fg = palette.purple },
