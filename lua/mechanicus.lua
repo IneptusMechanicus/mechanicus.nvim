@@ -154,7 +154,7 @@ M.highlight_group = function(palette)
 
     -- Treesitter --
     ["@variable"] = { fg = palette.orange },
-    ["@variable.builtin"] = { fg = palette.cyan },
+    ["@variable.builtin"] = { fg = palette.cyan, style = "italic" },
     ["@boolean"] = { fg = palette.purple, style = "bold" },
     ["@string"] = { fg = palette.darkGreen, style = "italic" },
     ["@string.escape"] = { fg = palette.purple },
@@ -162,7 +162,7 @@ M.highlight_group = function(palette)
     ["@number"] = { fg = palette.purple },
     ["@float"] = { fg = palette.purple },
     ["@property"] = { fg = palette.orange },
-    ["@constant"] = { fg = palette.aqua, style = "bold" },
+    ["@constant"] = { fg = palette.cyan, style = "bold" },
     ["@constant.builtin"] = { fg = palette.purple, style = "bold" },
     ["@constructor"] = { fg = palette.yellow, style = "bold" },
     ["@conditional"] = { fg = palette.aqua, style = "italic" },
@@ -195,7 +195,7 @@ M.highlight_group = function(palette)
     ["@tag.delimiter"] = { fg = palette.brown },
     ["@tag.attribute"] = { fg = palette.orange },
     ["@label"] = { fg = palette.pink, style = "italic" },
-    ["@type"] = { fg = palette.yellow, style = "bold" },
+    ["@type"] = { fg = palette.cyan, style = "bold" },
     ["@type.qualifier"] = { fg = palette.aqua, style = "italic" },
     ["@type.definition"] = { fg = palette.green, style = "bold" },
     ["@field"] = { fg = palette.white, style = "italic" },
