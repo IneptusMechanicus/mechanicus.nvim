@@ -196,7 +196,7 @@ M.highlight_group = function(palette)
     ["@tag.attribute"] = { fg = palette.orange },
     ["@label"] = { fg = palette.pink, style = "italic" },
     ["@type"] = { fg = palette.yellow, style = "bold" },
-    ["@type.builtin"] = { fg = palette.red, style = "italics" },
+    ["@type.builtin"] = { fg = palette.red, style = "italic" },
     ["@type.qualifier"] = { fg = palette.aqua, style = "italic" },
     ["@type.definition"] = { fg = palette.green, style = "bold" },
     ["@field"] = { fg = palette.white, style = "italic" },
