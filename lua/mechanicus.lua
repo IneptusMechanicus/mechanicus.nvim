@@ -152,6 +152,12 @@ M.highlight_group = function(palette)
     TelescopeResultsTitle = { fg = palette.yellow, style = "bold" },
     TelescopeResultsBorder = { fg = palette.aqua },
 
+    -- Lualine --
+    lualine_a_normal = { fg = palette.black, bg = palette.white},
+    lualine_a_visual = { fg = palette.black, bg = palette.yellow},
+    lualine_a_insert = { fg = palette.black, bg = palette.green},
+    lualine_a_command = { fg = palette.black, bg = palette.blue},
+
     -- Treesitter --
     ["@variable"] = { fg = palette.orange },
     ["@variable.builtin"] = { fg = palette.purple, style = "bold" },
@@ -196,7 +202,7 @@ M.highlight_group = function(palette)
     ["@tag.attribute"] = { fg = palette.orange },
     ["@label"] = { fg = palette.pink, style = "italic" },
     ["@type"] = { fg = palette.yellow, style = "bold" },
-    ["@type.builtin"] = { fg = palette.green, style = "italic" },
+    ["@type.builtin"] = { fg = palette.red, style = "italic" },
     ["@type.qualifier"] = { fg = palette.aqua, style = "italic" },
     ["@type.definition"] = { fg = palette.green, style = "bold" },
     ["@field"] = { fg = palette.white, style = "italic" },
