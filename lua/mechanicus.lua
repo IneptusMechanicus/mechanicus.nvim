@@ -155,8 +155,11 @@ M.highlight_group = function(palette)
     lualine_a_insert = { fg = palette.black, bg = palette.lightGreen},
     lualine_a_command = { fg = palette.black, bg = palette.blue},
 
+-- @lsp.type.macro
+-- @lsp.type.struct
+-- @lsp.type.typeParameter
+
     -- Treesitter --
-    ['@variable'] = { fg = palette.orange },
     ['@variable.builtin'] = { fg = palette.lightBlue, style = 'bold' },
     ['@boolean'] = { fg = palette.purple, style = 'bold' },
     ['@string'] = { fg = palette.green, style = 'italic' },
@@ -165,11 +168,20 @@ M.highlight_group = function(palette)
     ['@number'] = { fg = palette.purple },
     ['@float'] = { fg = palette.purple },
     ['@property'] = { fg = palette.orange },
+    ['@lsp.type.enumMember'] = { fg = palette.orange },
+    ['@lsp.type.property'] = { fg = palette.orange },
     ['@constant'] = { fg = palette.lightBlue, style = 'bold' },
     ['@constant.builtin'] = { fg = palette.purple, style = 'bold' },
     ['@constructor'] = { fg = palette.yellow, style = 'bold' },
+    ['@lsp.type.class'] = { fg = palette.yellow, style = 'bold' },
+    ['@lsp.type.interface'] = { fg = palette.yellow, style = 'bold' },
+    ['@lsp.type.type'] = { fg = palette.yellow, style = 'bold' },
+    ['@lsp.type.enum'] = { fg = palette.yellow, style = 'bold' },
     ['@conditional'] = { fg = palette.blue, style = 'italic' },
     ['@comment'] = { fg = palette.base6, style = 'italic' },
+    ['@lsp.type.comment'] = { fg = palette.base6, style = 'italic' },
+    ['@variable'] = { fg = palette.orange },
+    ['@lsp.type.variable'] = { fg = palette.orange },
     --
     ['@keyword'] = { fg = palette.blue, style = 'italic' },
     ['@keyword.function'] = { fg = palette.yellow, style = 'italic' },
@@ -177,16 +189,21 @@ M.highlight_group = function(palette)
     --
     ['@include'] = { fg = palette.blue, style = 'italic' },
     ['@namespace'] = { fg = palette.base8, style = 'italic' },
+    ['@lsp.type.namespace'] = { fg = palette.base8, style = 'italic' },
     ['@exception'] = { fg = palette.blue, style = 'italic' },
     ['@storageclass'] = { fg = palette.yellow, style = 'italic' },
     --
     ['@function'] = { fg = palette.lightGreen, style = 'bold' },
+    ['@lsp.type.function'] = { fg = palette.lightGreen, style = 'bold' },
+    ['@lsp.type.decorator'] = { fg = palette.lightGreen, style = 'bold' },
     ['@function.builtin'] = { fg = palette.lightGreen },
     ['@function.macro'] = { fg = palette.lightGreen, style = 'italic' },
     ['@method'] = { fg = palette.lightGreen, style = 'bold' },
+    ['@lsp.type.method'] = { fg = palette.lightGreen, style = 'bold' },
     ['@operator'] = { fg = palette.yellow, style = 'bold' },
     ['@conditional.ternary'] = { fg = palette.yellow, style = 'italic' },
     ['@parameter'] = {  fg = palette.purple },
+    ['@lsp.type.parameter'] = {  fg = palette.purple },
     ['@reference'] = {  fg = palette.purple },
     --
     ['@punctuation.delimiter'] = { fg = palette.yellow, style = 'bold' },
