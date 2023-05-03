@@ -24,6 +24,7 @@ M.palette = {
   lightBlue = '#90d9ff',
   yellow = '#e6f074',
   orange = '#d57635',
+  lightOrange = '#f59545',
   purple = '#a870b1',
   diff_add = '#77a66c',
   diff_remove = '#fb6767',
@@ -95,6 +96,10 @@ M.highlight_group = function(palette)
     DiagnosticUnderlineWarn = { style = 'undercurl', sp = palette.yellow },
     DiagnosticUnderlineInfo = { style = 'undercurl', sp = palette.white },
     DiagnosticUnderlineHint = { style = 'undercurl', sp = palette.blue },
+    DiagnosticError = { style = 'undercurl', sp = palette.red },
+    DiagnosticWarn = { style = 'undercurl', sp = palette.yellow },
+    DiagnosticInfo = { style = 'undercurl', sp = palette.white },
+    DiagnosticHint = { style = 'undercurl', sp = palette.blue },
 
     -- hrsh7th/nvim-cmp
     CmpDocumentation = { fg = palette.white, bg = palette.base1 },
@@ -155,10 +160,6 @@ M.highlight_group = function(palette)
     lualine_a_insert = { fg = palette.black, bg = palette.lightGreen},
     lualine_a_command = { fg = palette.black, bg = palette.blue},
 
--- @lsp.type.macro
--- @lsp.type.struct
--- @lsp.type.typeParameter
-
     -- Treesitter --
     ['@variable.builtin'] = { fg = palette.lightBlue, style = 'bold' },
     ['@boolean'] = { fg = palette.purple, style = 'bold' },
@@ -167,7 +168,7 @@ M.highlight_group = function(palette)
     ['@character'] = { fg = palette.green, style = 'italic' },
     ['@number'] = { fg = palette.purple },
     ['@float'] = { fg = palette.purple },
-    ['@property'] = { fg = palette.orange },
+    ['@property'] = { fg = palette.white, style ='italic' },
     ['@lsp.type.enumMember'] = { fg = palette.orange },
     ['@lsp.type.property'] = { fg = palette.orange },
     ['@constant'] = { fg = palette.lightBlue, style = 'bold' },
@@ -202,7 +203,7 @@ M.highlight_group = function(palette)
     ['@lsp.type.method'] = { fg = palette.lightGreen, style = 'bold' },
     ['@operator'] = { fg = palette.yellow, style = 'bold' },
     ['@conditional.ternary'] = { fg = palette.yellow, style = 'italic' },
-    ['@parameter'] = {  fg = palette.purple },
+    ['@parameter'] = {  fg = palette.lightOrange, style = 'italic' },
     ['@lsp.type.parameter'] = {  fg = palette.purple },
     ['@reference'] = {  fg = palette.purple },
     --
