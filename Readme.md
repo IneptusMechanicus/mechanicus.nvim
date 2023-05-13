@@ -1,4 +1,4 @@
-# mechanicus.nvim
+<h1 align="center"> MECHANICUS.NVIM </h1>
 
 This is my personal colorscheme, based off of [mechanicus-syntax](https://github.com/IneptusMechanicus/mechanicus-syntax), a syntax theme I wrote for Atom back in the day. The code of this theme is based on [tarvintin's monokai.nvim theme](https://github.com/tanvirtin/monokai.nvim), though most of the customizability and flavours have been removed.
 
