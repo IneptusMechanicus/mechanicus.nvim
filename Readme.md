@@ -35,3 +35,5 @@ As for plugins I've implemented support for the following plugins, that I also u
 - [WhichKey](https://github.com/folke/which-key.nvim)
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+
+The colorscheme itself has coverd the new LSP Semantic highlights, but I keep them disabled in my own config, since I don't think that functionality is up to par yet.
