@@ -2,10 +2,18 @@
 
 This is my personal colorscheme, based off of [mechanicus-syntax](https://github.com/IneptusMechanicus/mechanicus-syntax), a syntax theme I wrote for Atom back in the day. The code of this theme is based on [tarvintin's monokai.nvim theme](https://github.com/tanvirtin/monokai.nvim), though most of the customizability and flavours have been removed.
 
-![](screenshots/img-1.png)
-![](screenshots/img-2.png)
-![](screenshots/img-3.png)
-![](screenshots/img-4.png)
+---
+
+<p align="left">
+    <img src="img/img-1.png" style="width: 48%; height: auto;">
+    <img src="img/img-2.png" style="width: 48%; height: auto;">
+</p>
+<p align="left">
+    <img src="img/img-3.png" style="width: 48%; height: auto;">
+    <img src="img/img-4.png" style="width: 48%; height: auto;">
+</p>
+
+---
 
 ## Installation
 
