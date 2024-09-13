@@ -2,7 +2,7 @@ local vim = vim
 local M = {}
 
 M.palette = {
-  name =        'mechanicus',
+  name        = 'mechanicus',
   base0       = '#1a1a17',
   base1       = '#302F27',
   base2       = '#3C3A2E',
@@ -19,7 +19,7 @@ M.palette = {
   ansi5       = '#cf89cf',
   ansi6       = '#c1b1b1',
   ansi7       = '#e6c68a',
-  ansi8       = '#433831',
+  ansi8       = '#653535',
   ansi9       = '#ff8818',
   ansi10      = '#88c288',
   ansi11      = '#faf974',
@@ -63,7 +63,7 @@ M.highlight_group = function(palette)
     IncSearch = { fg = palette.ansi0, bg = palette.ansi9 },
     MatchParen = { fg = palette.ansi9 },
     Question = { fg = palette.ansi3 },
-    ModeMsg = { fg = palette.ansi7, style = 'bold' },
+    -- ModeMsg = { fg = palette.ansi7, style = 'bold' },
     MoreMsg = { fg = palette.ansi7, style = 'bold' },
     ErrorMsg = { fg = palette.ansi1, style = 'bold' },
     WarningMsg = { fg = palette.ansi3, style = 'bold' },
@@ -261,7 +261,5 @@ M.setup = function()
     vim.cmd.highlight(group .. ' ' .. style .. ' ' .. fg .. ' ' .. bg .. ' ' .. sp)
   end
 end
-
-M.setup()
 
 return M
